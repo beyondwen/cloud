@@ -9,6 +9,7 @@
     <modules>
         <module>api-service</module>
         <module>api-impl</module>
+        <module>common-service</module>
     </modules>
 
     <packaging>pom</packaging>
@@ -54,6 +55,11 @@
             <artifactId>lombok</artifactId>
         </dependency>
 
+        <!-- hystrix断路器 -->
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-netflix-hystrix</artifactId>
+        </dependency>
 
     </dependencies>
     <!-- 注意： 这里必须要添加， 否者各种依赖有问题 -->

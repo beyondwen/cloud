@@ -12,9 +12,6 @@
     <url>http://maven.apache.org</url>
     <modules>
         <module>api-service-member</module>
+        <module>api-service-order</module>
     </modules>
-
-    <dependencies>
-
-    </dependencies>
 </project>

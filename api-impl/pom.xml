@@ -10,13 +10,9 @@
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>api-impl</artifactId>
-    <packaging>war</packaging>
-
-   <dependencies>
-       <dependency>
-           <groupId>com.wenhao.cloud</groupId>
-           <artifactId>api-service-member</artifactId>
-           <version>1.0-SNAPSHOT</version>
-       </dependency>
-   </dependencies>
+    <packaging>pom</packaging>
+    <modules>
+        <module>member-service-impl</module>
+        <module>order-service-impl</module>
+    </modules>
 </project>
